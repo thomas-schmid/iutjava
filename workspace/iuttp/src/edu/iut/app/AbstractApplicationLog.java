@@ -4,17 +4,15 @@ import java.util.ArrayList;
 
 public abstract class AbstractApplicationLog implements IApplicationLog {
 
-	protected String message;
-	/** TP1 : Tableau au sens des collections **/
-	protected /*TYPE TABLEAU*/ listeners;
+	protected String message;	
+	protected ArrayList<IApplicationLogListener> listeners;
 	
 	public AbstractApplicationLog() {
 		message = null;
-		listeners = new /*TYPE TABLEAU*/();
+		listeners = new ArrayList<IApplicationLogListener>();
 	}
 	
-    /** TP1 : Fonction venant de l'interface par héritage */
-
+	abstract void setMessage();
 
 	/** Listener action */
 	protected void fireMessage(String level, String message) {
