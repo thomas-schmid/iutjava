@@ -1,4 +1,7 @@
 activeuserprofiles=Newark-PC;Team
 eclipse.preferences.version=1
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=NeWark
+<<<<<<< HEAD
 useridperkey=Newark-PC.Local\=NeWark;
+=======
+>>>>>>> d7bf8cd49ff3f727388d15617efdf9aaca58d43a

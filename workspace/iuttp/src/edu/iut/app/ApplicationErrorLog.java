@@ -13,6 +13,7 @@ public class ApplicationErrorLog extends AbstractApplicationLog {
 		super.fireMessage("[ERROR]", this.message);
 	}
 
+<<<<<<< HEAD
 	@Override
 	public String getMessage() {
 		// TODO Auto-generated method stub
@@ -37,5 +38,7 @@ public class ApplicationErrorLog extends AbstractApplicationLog {
 		
 	}
 
+=======
+>>>>>>> d7bf8cd49ff3f727388d15617efdf9aaca58d43a
 
 }

@@ -12,6 +12,7 @@ public class ApplicationWarningLog extends AbstractApplicationLog {
 		this.message = message;
 		super.fireMessage("[WARNING]", this.message);
 	}
+<<<<<<< HEAD
 
 	@Override
 	public String getMessage() {
@@ -36,4 +37,6 @@ public class ApplicationWarningLog extends AbstractApplicationLog {
 		// TODO Auto-generated method stub
 		
 	}
+=======
+>>>>>>> d7bf8cd49ff3f727388d15617efdf9aaca58d43a
 }
